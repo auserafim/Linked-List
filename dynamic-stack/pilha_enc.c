@@ -64,8 +64,9 @@ void imprime_pilha(tipo_no *pl) {
 
   while(pl != NULL) {
     printf("[%d]->", pl->valor);
+    pl = pl->prox;
   }
 
-printf("[NULL]");
+printf("[NULL]\n");
 
 }
