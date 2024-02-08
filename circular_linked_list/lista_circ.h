@@ -25,8 +25,10 @@ int remove_fim_lista_cir(tipo_no**);
 int remove_pos_lista_cir(tipo_no**, int);
 
 tipo_no *inserefim_lista_cir(tipo_no*, int);
-tipo_no *inserefim_inicio_cir(tipo_no*, int);
+tipo_no *insereinicio_inicio_cir(tipo_no*, int);
 void imprime_lista_cir(tipo_no *);
+
+
 // tipo_no_dup *aloca_no(int); 
 // int qtd_elementos_fila(tipo_no *);
 
