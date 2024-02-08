@@ -1,5 +1,5 @@
-#ifndef __LISTA_DUP_H__
-#define __LISTA_DUP_H__
+#ifndef __LISTA_CIR_H__
+#define __LISTA_CIR_H__
 
 #include<stdio.h>
 #include<stdlib.h>
