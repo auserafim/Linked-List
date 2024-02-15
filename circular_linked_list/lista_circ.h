@@ -25,7 +25,7 @@ int remove_fim_lista_cir(tipo_no**);
 int remove_pos_lista_cir(tipo_no**, int);
 
 tipo_no *inserefim_lista_cir(tipo_no*, int);
-tipo_no *insereinicio_inicio_cir(tipo_no*, int);
+tipo_no *insereinicio_lista_cir(tipo_no*, int);
 void imprime_lista_cir(tipo_no *);
 
 
