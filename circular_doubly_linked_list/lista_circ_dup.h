@@ -3,6 +3,8 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+#include <time.h>
+
 
 struct est_noh {
   int valor;
@@ -22,5 +24,6 @@ int remove_pos_lista_cir_dup(tipo_no_dup**, int);
 tipo_no_dup *inserefim_lista_cir_dup(tipo_no_dup*, int);
 tipo_no_dup *insereinicio_lista_cir_dup(tipo_no_dup*, int);
 void imprime_lista_cir_dup(tipo_no_dup *);
+void gira_roleta(tipo_no_dup**);
 
 #endif
